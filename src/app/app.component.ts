@@ -10,6 +10,10 @@ export class AppComponent {
   numeros: number[];
 
   ngOnInit() {
+    this.gerar();
+  }
+
+  gerar(): void {
     this.numeros = [1, 2, 3, 4];
     this.name = '';
 
